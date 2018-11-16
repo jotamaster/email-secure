@@ -1,7 +1,7 @@
 
 
 
-module.exports = function emailSecure(e) {
+exports.hideEmail = function  (e) {
     if(e.indexOf('@') !== -1){
          
         limit = e.indexOf('@'); 
