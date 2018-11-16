@@ -1,0 +1,15 @@
+{
+  "name": "email-secure",
+  "version": "1.0.0",
+  "description": "hide a fragment of the email address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jotamaster",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jotamaster/email-secure"
+  }
+}
