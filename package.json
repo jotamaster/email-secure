@@ -1,6 +1,6 @@
 {
   "name": "email-secure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hide a fragment of the email address",
   "main": "src/index.js",
   "scripts": {
