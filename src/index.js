@@ -1,18 +1,24 @@
 
 
 
-exports.hideEmail = function  (e) {
-    if(e.indexOf('@') !== -1){
+exports.hideEmail = function  (email) {
+    if( validateEmail(email)){
          
-        limit = e.indexOf('@'); 
+        limit = email.indexOf('@'); 
         start = Math.round(limit/3);   
-        email = e.split("")
+        hideEmail = email.split("")
         for (let index = start; index < limit; index++) {
-             email[index] = '*';
+            hideEmail[index] = '*';
         }
-        return email.join('')
+        return hideEmail.join('')
     }else{
        return null
     }
 }
+function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
+
+
 
