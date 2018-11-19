@@ -4,9 +4,9 @@
 exports.hideEmail = function  (email) {
     if( validateEmail(email)){
          
-        limit = email.indexOf('@'); 
-        start = Math.round(limit/3);   
-        hideEmail = email.split("")
+        let limit = email.indexOf('@'); 
+        let start = Math.round(limit/3);   
+        let hideEmail = email.split("")
         for (let index = start; index < limit; index++) {
             hideEmail[index] = '*';
         }
