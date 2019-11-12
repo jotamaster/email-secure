@@ -1,17 +1,17 @@
 {
-  "name": "email-secure",
-  "version": "1.0.4",
-  "description": "hide a fragment of the email address",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "jotamaster",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jotamaster/email-secure"
-  },
-  "types": "./src/index.d.ts"
-  
+	"name": "email-secure",
+	"version": "2.0.4",
+	"description": "hide a fragment of the email address",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "jotamaster",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jotamaster/email-secure"
+	},
+	"types": "./src/index.d.ts",
+	"keywords": [ "hideEmail", "validate", "email", "ts", "validateEmail" ]
 }
